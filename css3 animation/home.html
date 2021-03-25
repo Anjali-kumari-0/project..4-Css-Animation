@@ -1,0 +1,610 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            CSS
+        </title>
+        <script src="https://kit.fontawesome.com/e1b283836e.js" crossorigin="anonymous"></script>
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@700&display=swap" rel="stylesheet">
+        <style>
+            nav {
+                color: black;
+                display: inline-flex;
+                position: fixed;
+                width: 1320px;
+                height: 100px;
+                margin-top: 0px;
+                
+            }
+            body:hover nav {
+                background-color: black;
+                color: white;
+            }
+            .logo {
+                font-weight: 400;
+                font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+                font-size: large;
+                margin-right: 100px;
+               
+
+            }
+            .searchbar input {
+                margin-top: 10px;
+                margin-left: 10px;
+                width: 150px;
+                height: 30px;
+                border-radius: 5px;
+                color: rgb(0, 5, 5);
+                box-shadow: 0 0 5px #33ffff ,
+                            0 0 5px #33ffff;
+                margin-right: 200px;
+                
+               
+                
+                
+
+            }
+            .searchbar i:hover {
+                 
+            } 
+                
+                
+            
+            .yar {
+                margin-left: 50px;
+                margin-right: 2px;
+                color: black;
+                font-size: 20px;
+                text-align: right;
+
+
+            }
+            nav ul li a {
+                
+                text-decoration: none;
+                line-height: 70px;
+                font-size: 18px;
+                padding: 8px 15px;
+                list-style-type: none;
+                list-style: none;
+                
+
+            }
+            nav ul li a:hover {
+                border-radius: 5px;
+                color: aqua;
+                box-shadow: 0 0 5px #33ffff ,
+                            0 0 5px #33ffff;
+            }
+            
+            ul {
+                display: inline-flex;
+                text-align: right;
+            }
+             body:hover .yar:hover  {
+                border-color: cyan;
+                color: black;
+                border-spacing: 15px;
+                padding: 15px;
+                background-color: white;
+            }
+            body:hover .yar {
+                color: white;
+            }
+            .header {
+                background-image:url(1686771.jpg);
+                background-size: cover;
+                background-position: center;
+                position: relative;
+                width: 100%;
+                height: 650px;
+            }
+            .header:hover p {
+                animation: moveToLeft 2s ease-in-out infinite;
+            animation-delay: 100ms;
+            
+            
+            
+
+           
+               transition: transform 1s;
+           
+}
+
+@keyframes moveToLeft {
+    0% {
+        color: #e91e63;
+    }
+    10% {
+        color: green;
+    }
+    20% {
+        color: blue;
+    }
+    30% {
+        color: wheat;
+    }
+    40% {
+        color: aqua;
+    }
+    50% {
+        color: brown;
+    }
+    60% {
+        color: chocolate;
+    }
+    70% {
+        color: #e91e63;
+    }
+    80% {
+        color: darkcyan;
+    }
+    90% {
+        color: forestgreen;
+    }
+    100% {
+        color: #e91e63;
+    }
+}
+            
+            .CSSa {
+                margin-top: 300px;
+                margin-left: 100px;
+                font-size: 50px;
+                color: black;
+
+            }
+            .folks {
+                color: rgb(70, 69, 69);
+                font-size: 20px;
+                text-align: center;
+                margin-top: 40px;
+            }
+            .text1 {
+                width: 450px;
+                text-align: center;
+                margin-top: 20px;
+                height: 200px;
+                background-color: rgb(139, 136, 136);
+                border-radius: 5px;
+                border-color:rgb(139, 136, 136) ;
+                align-content: center;
+            }
+            footer {
+                background-color: black;
+                color: white;
+                width: 100%;
+                height: 200px;
+                text-align: center;
+
+            }
+            .footer {
+                display: inline-flex;
+                
+            }
+             a i {
+                
+                
+	height: 40px;
+	width: 40px;
+	background-color: rgba(255,255,255,0.2);
+	margin:10px 10px 10px 0;
+	text-align: center;
+	line-height: 40px;
+	border-radius: 50%;
+	color: #ffffff;
+	transition: all 0.5s ease;
+                
+                
+
+            }
+             a i:hover {
+                color: #000102;
+	            background-color: #ffffff;
+            }
+            .i:hover social {
+                border: none;
+                background-color: black;
+                
+            }
+            .footer li {
+                margin: 20px;
+                text-decoration: none;
+            }
+            .content {
+                background-color: white;
+                padding-left: 90px;
+                display: inline-flex;
+                width: 100%;
+                align-content: center;
+                padding-top: 50px;
+                padding-bottom: 30px;
+
+            }
+            .box {
+                width: 350px;
+                height: 400px;
+                background-color: rgb(248, 113, 158);
+                border-color: black;
+                border-radius: 5px;
+                border-style: solid;
+                align-content: center;
+                padding: 15px;
+                font-style: oblique;
+
+            }
+            .content:hover p {
+                animation: bottomToup 1s 1s ease-in-out ;
+               
+            }
+            @keyframes bottomToup {
+                0% {
+                    transform: translateY(150px) rotateX(45deg);
+                    font-size: medium;
+                }
+                100% {
+                    transform: translateY(150px);
+                    font-size: small;
+                }
+            }
+            .box:hover {
+                background-color: rgb(219, 143, 168);
+                height: 420px;
+                width: 370px ;
+                box-shadow: 0 0 5px   black,
+                            0 0 5px black;
+                
+            }
+            .box:hover p {
+                font-size: x-large;
+                font-style: normal;
+            }
+            .blog {
+                width: 100%;
+                height: 300px;
+
+            }
+            
+            .box2 {
+                display: inline-flex;
+                width: 100%;
+
+            }
+            .boxx {
+                width: 50%;
+                height: 400px;
+                background-color: magenta;
+            }
+            .mnb {
+                width: 100%;
+                height: 400px;
+            }
+            #spinner img {
+    position: absolute;
+    border: 1px solid #ccc;
+    background: rgba(255,255,255,0.8);
+    box-shadow: inset 0 0 20px rgba(0,0,0,0.2);
+  }
+             .gellery {
+                 align-content: center;
+                 height: 300px;
+                 padding-top: 100px;
+                 padding-left: 300px;
+                 background-color: rgb(255, 51, 0);
+
+             }
+             .money {
+                 display: inline-flex;
+                 padding-left: 300px;
+                 padding-top: 50px;
+                 padding-bottom: 50px;
+
+             }
+             .money1 {
+                 border-radius: 5px;
+                 border-right: #00010204;
+                 height: 400px;
+                 width: 200px;
+             }
+             .name {
+                 background-color: rgb(149, 149, 179);
+                 text-align: center;
+                 height: 45px;
+                 width: 90px;
+                 color: black;
+
+             }
+             button {
+                 border-radius: 3px;
+                 border-color: black;
+                 background-color: rgb(7, 207, 207);
+                 color: black;
+                 width: 70px;
+                 height: 40px;
+                 font-size: 13px;
+                 font-weight: 300;
+                 font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+                 
+             }
+             button:hover {
+                 background-color: rgb(167, 218, 218);
+                 color: black;
+                 font-size: 10px;
+             }
+             .price {
+                 border-radius: 50%;
+
+             }
+             #searchqq:hover input  .searchbar{
+                 border-radius: 10px;
+                 width: 15px;
+                 height: 5px;
+                 color: black;
+                 background-color: white;
+
+             }
+             
+             
+             
+
+
+           
+            
+
+            
+
+        </style>
+        <style type="text/css">
+
+            /* WebKit and Opera browsers */
+            @-webkit-keyframes spinner {
+              from { -webkit-transform: rotateY(0deg);    }
+              to   { -webkit-transform: rotateY(-360deg); }
+            }
+          
+            /* all other browsers */
+            @keyframes spinner {
+              from {
+                -moz-transform: rotateY(0deg);
+                -ms-transform: rotateY(0deg);
+                transform: rotateY(0deg);
+              }
+              to {
+                -moz-transform: rotateY(-360deg);
+                -ms-transform: rotateY(-360deg);
+                transform: rotateY(-360deg);
+              }
+            }
+          
+          </style>
+           <style type="text/css">
+          
+            #spinner {
+              -webkit-animation-name: spinner;
+              -webkit-animation-timing-function: linear;
+              -webkit-animation-iteration-count: infinite;
+              -webkit-animation-duration: 6s;
+          
+              animation-name: spinner;
+              animation-timing-function: linear;
+              animation-iteration-count: infinite;
+              animation-duration: 6s;
+          
+              -webkit-transform-style: preserve-3d;
+              -moz-transform-style: preserve-3d;
+              -ms-transform-style: preserve-3d;
+              transform-style: preserve-3d;
+            }
+          
+            #spinner:hover {
+              -webkit-animation-play-state: paused;
+              animation-play-state: paused;
+            }
+            .social i {
+                text-align: center;
+                text-decoration: none;
+                list-style: none;
+                
+                
+            }
+            i {
+                margin-top: 10px;
+                
+            }
+            .text1 {
+                margin-left: 400px;
+                color: aqua;
+            }
+            .text1:hover {
+                border-radius: 5px;
+                color:  #5f0ff5;
+                box-shadow: 0 0 5px   black,
+                            0 0 5px black;
+            }
+            .blog {
+                padding-left: 40px;
+                
+                text-align: center;
+                font-size: medium;
+            }
+            .blog p{
+                margin-right: 60px;
+            }
+            .blog p:hover {
+                font-size: large;
+            }
+            .boxx {
+                padding-top: 30px;
+                padding-left: 20px;
+                padding-right: 20px;
+                text-align: center;
+
+            }
+            .boxx:hover {
+                background-color: #ff7ea9;
+                font-size: large;
+            }
+          
+          </style>
+    </head>
+    <body>
+        <div class="header">
+        <nav>
+            <div class="logo">CSS Animation</div>
+            <div class="searchbar"><input type="search" placeholder="search" class="sear"><a href="#"><i class="fa fa-search" aria-hidden="true" id="searchqq"></i></a></div>
+            <div class="navigation">
+                <ul >
+                    <li><a href="#" class="yar"    >home</a></li>
+                    <li><a href="#" class="yar">home</a></li>
+                    <li><a href="#" class="yar">home</a></li>
+                    <li><a href="#" class="yar">home</a></li>
+                    <li><a href="#" class="yar">home</a></li>
+                    <li><a href="#" class="yar">home</a></li>
+
+
+
+                </ul>
+            </div>
+        </nav>
+        <br>
+        <p class="CSSa">CSS Animation</p>
+
+     </div>
+     <hr>
+     <div class="text">
+         <p class="folks">Hi folks , welcome to sctpl :) <i class="fa fa-i-cursor" aria-hidden="true"></i> </p>
+         <input type="text" class="text1" placeholder="some text........">
+     </div>
+     <div class="content">
+         <div class="box"><p>Illud phantasma industria vexillum scriptor accumsan fuit unquam cum 1500s, cum incognita est a printer tulit unam, et diripienda autem genus est genus ut libero. Sed etiam in saltu electronic condimentum, remanserant per se unum. Is eram in 1960 popularized cum remissionis de Letraset Folia accumsan locis, recentius in desktop software quasi operturus Jeep libellorum ex eros etiam accumsan.</p></div>
+         <div class="box"><p>Illud phantasma industria vexillum scriptor accumsan fuit unquam cum 1500s, cum incognita est a printer tulit unam, et diripienda autem genus est genus ut libero. Sed etiam in saltu electronic condimentum, remanserant per se unum. Is eram in 1960 popularized cum remissionis de Letraset Folia accumsan locis, recentius in desktop software quasi operturus Jeep libellorum ex eros etiam accumsan.</p></div>
+         <div class="box"><p>Illud phantasma industria vexillum scriptor accumsan fuit unquam cum 1500s, cum incognita est a printer tulit unam, et diripienda autem genus est genus ut libero. Sed etiam in saltu electronic condimentum, remanserant per se unum. Is eram in 1960 popularized cum remissionis de Letraset Folia accumsan locis, recentius in desktop software quasi operturus Jeep libellorum ex eros etiam accumsan.</p></div>
+     </div>
+     <div class="blog"><p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+
+        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p></div>
+     <hr>
+     <div class="gellery">
+        <div id="stage" style="padding-left: 180px; height: 160px;">
+            <div id="spinner" style="-webkit-transform-origin: 180px 0 0;">
+            <img style="-webkit-transform: rotateY(0deg) translateX(180px); padding: 0 0 0 160px;" src="1686771.jpg" width="200" height="160" alt="">
+            <img style="-webkit-transform: rotateY(-72deg) translateX(180px); padding: 0 0 0 147px;" src="1686771.jpg" width="213" height="160" alt="">
+            <img style="-webkit-transform: rotateY(-144deg) translateX(180px); padding: 0 0 0 120px;" src="1686771.jpg" width="240" height="160" alt="">
+            <img style="-webkit-transform: rotateY(-216deg) translateX(180px); padding: 0 0 0 147px;" src="1686771.jpg" width="213" height="160" alt="">
+            <img style="-webkit-transform: rotateY(-288deg) translateX(180px); padding: 0 0 0 122px;" src="1686771.jpg" width="238" height="160" alt="">
+            </div>
+            </div>
+
+     </div>
+     <div class="box4">
+         <div class="box2">
+             <div class="boxx"><img src="1686771.jpg" class="mnb"></div>
+             <div class="boxx">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+
+                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</div>
+
+         </div>
+         <div class="box2">
+            <div class="boxx">
+                
+                The U.S. is fast approaching $19,000,000,000,000.00 in national debt. This is mathematically impossible to ever pay back … even if every American was taxed at 100%.
+                
+                Charles Goyette, The Dollar Meltdown
+                79 million Baby Boomers are about to retire, pull their money out of the economy, and demand their $35 Trillion Dollars in Social Security & Medicare. Think that through…
+                
+                Robert Kiyosaki
+                23.4% of Americans are Currently Unemployed … not the 9.1% they’d like you to believe.
+                
+                ShadowStats.com</div>
+            <div class="boxx"><img src="1686771.jpg" class="mnb"></div>
+
+        </div>
+        <div class="box2">
+            <div class="boxx"><img src="1686771.jpg" class="mnb"></div>
+            <div class="boxx">The U.S. is fast approaching $19,000,000,000,000.00 in national debt. This is mathematically impossible to ever pay back … even if every American was taxed at 100%.
+                
+                Charles Goyette, The Dollar Meltdown
+                79 million Baby Boomers are about to retire, pull their money out of the economy, and demand their $35 Trillion Dollars in Social Security & Medicare. Think that through…
+                
+                Robert Kiyosaki
+                23.4% of Americans are Currently Unemployed … not the 9.1% they’d like you to believe.
+                
+                ShadowStats.com</div>
+
+        </div>
+        <div class="box2">
+            <div class="boxx">The U.S. is fast approaching $19,000,000,000,000.00 in national debt. This is mathematically impossible to ever pay back … even if every American was taxed at 100%.
+                
+                Charles Goyette, The Dollar Meltdown
+                79 million Baby Boomers are about to retire, pull their money out of the economy, and demand their $35 Trillion Dollars in Social Security & Medicare. Think that through…
+                
+                Robert Kiyosaki
+                23.4% of Americans are Currently Unemployed … not the 9.1% they’d like you to believe.
+                
+                ShadowStats.com</div>
+            <div class="boxx"><img src="1686771.jpg" class="mnb"></div>
+
+        </div>
+     </div>
+     <div class="money">
+         <div class="money1">
+             <div class="name">Enterprise</div>
+             <div class="price"><p><i class="fas fa-comment-dollar    " id="circle"> 59</i></p></div>
+             <div class="btn"><button type="button">SIGN UP</button></div>
+             <div class="dis">
+                 <p class="gb" id="unlimit1">10GB Disk Space</p>
+                 <p class="gb" id="unlimit2">10GB Monthly BandWidth</p>
+                 <p class="gb" id="unlimit3">70 Email Account</p>
+                 <p class="gb" id="unlimit4"><b>Unlimited</b><cite>Subscription</cite></p>
+             </div>
+         </div>
+         <div class="money1">
+            <div class="name">Enterprise</div>
+            <div class="price"><p><i class="fas fa-comment-dollar    "> 59</i></p></div>
+            <div class="btn"><button type="button">SIGN UP</button></div>
+            <div class="dis">
+                <p class="gb" id="unlimit1">10GB Disk Space</p>
+                <p class="gb" id="unlimit2">10GB Monthly BandWidth</p>
+                <p class="gb" id="unlimit3">70 Email Account</p>
+                <p class="gb" id="unlimit4"><b>Unlimited</b><cite>Subscription</cite></p>
+            </div>
+         </div>
+
+         <div class="money1">
+            <div class="name">Enterprise</div>
+            <div class="price"><p><i class="fas fa-comment-dollar    "> 59</i></p></div>
+            <div class="btn"><button type="button">SIGN UP</button></div>
+            <div class="dis">
+                <p class="gb" id="unlimit1">10GB Disk Space</p>
+                <p class="gb" id="unlimit2">10GB Monthly BandWidth</p>
+                <p class="gb" id="unlimit3">70 Email Account</p>
+                <p class="gb" id="unlimit4"><b>Unlimited</b><cite>Subscription</cite></p>
+            </div>
+         </div>
+         <div class="money1">
+            <div class="name">Enterprise</div>
+            <div class="price"><p><i class="fas fa-comment-dollar    "> 59</i></p></div>
+            <div class="btn"><button type="button">SIGN UP</button></div>
+            <div class="dis">
+                <p class="gb" id="unlimit1">10GB Disk Space</p>
+                <p class="gb" id="unlimit2">10GB Monthly BandWidth</p>
+                <p class="gb" id="unlimit3">70 Email Account</p>
+                <p class="gb" id="unlimit4"><b>Unlimited</b><cite>Subscription</cite></p>
+            </div>
+         </div>
+
+     </div>
+     <footer >
+         <ul class="footer">
+             <li><a href="#" class="social"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+             <li><a href="#" class="social"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+             <li><a href="#" class="social"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+             <li><a href="#" class="social"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+
+         </ul>
+         <br>
+         <div class="copy"><p><i class="fa fa-copyright" aria-hidden="true"></i>Copyright - wallpaperaccess.com </p></div>
+     </footer>
+    </body>
+</html>
